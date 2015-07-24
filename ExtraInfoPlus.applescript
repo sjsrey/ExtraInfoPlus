@@ -19,12 +19,10 @@
 -- The folder where your templates are stored, must end in trailing slash
 property templateFolder : "/Users/ttscoff/Dropbox/Notes/Templates/"
 -- Your keywords for app triggers, and their associated target paths, template names, extension and app name
-set workList to {{"note", "map", "mapx", "mmap", "outline"}, ¬
-	{docPath:"/Users/ttscoff/Dropbox/nvALT2.2/", template:"Template.md", ext:"md", appname:"nvALT"}, ¬
-	{docPath:"/Users/ttscoff/Dropbox/Notes/Brainstorming/", template:"Template.mindnode", ext:"mindnode", appname:"MindNode Pro"}, ¬
-	{docPath:"/Users/ttscoff/Dropbox/Notes/Brainstorming/", template:"map.itm", ext:"itmz", appname:"iThoughtsX"}, ¬
-	{docPath:"/Users/ttscoff/Dropbox/Notes/Brainstorming/", template:"Template.mindmanager", ext:"mmap", appname:"Mindjet MindManager"}, ¬
-	{docPath:"/Users/ttscoff/Dropbox/Notes/Brainstorming/", template:"Template.opml", ext:"opml", appname:"OmniOutliner"}}
+set workList to {{"note", "map",  "outline"}, ¬
+	{docPath:"/Users/serge/Dropbox/n/notes/", template:"Template.md", ext:"md", appname:"nvALT"}, ¬
+	{docPath:"/Users/serge/Dropbox/Ithoughts/", template:"map.itm", ext:"itmz", appname:"iThoughtsX"}, ¬
+	{docPath:"/Users/serge/Dropbox/o/outlines/", template:"Template.opml", ext:"opml", appname:"OmniOutliner"}}
 
 
 -- Change nothing bellow this point unless you know what you're doing. Magic starts here.
